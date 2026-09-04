@@ -62,7 +62,7 @@ def guardrail_node(state: RecoveryState):
 
     safety_check = check_action(
         state["analysis"]["recommended_action"],
-        retry_count=0,
+        retry_count=state["payment"].retry_count,
         amount=state["payment"].amount
     )
 

@@ -49,7 +49,7 @@ def create_payment(payment: Payment):
         amount=payment.amount,
         status=payment.status,
         failure_reason=payment.failure_reason,
-        retry_count=0,
+        retry_count=payment.retry_count,
         recovery_status=result["recovery_action"]["status"],
         recovered_amount=result["recovery_action"]["recovered_amount"]
     )
