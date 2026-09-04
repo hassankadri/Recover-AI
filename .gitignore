@@ -1,0 +1,22 @@
+# Environment secrets
+backend/.env
+
+# Python
+backend/venv/
+__pycache__/
+*.pyc
+
+# Database
+backend/recoverai.db
+
+# Next.js
+frontend/node_modules/
+frontend/.next/
+
+# Environment files
+frontend/.env
+frontend/.env.local
+
+# OS
+.DS_Store
+Thumbs.db
