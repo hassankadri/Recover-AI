@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/banner.svg" alt="RecoverAI — the agent that turns failed payments into recovered revenue" width="100%" />
+<img src="./banner.svg" alt="RecoverAI — the agent that turns failed payments into recovered revenue" width="100%" />
 
 <br/>
 
